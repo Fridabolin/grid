@@ -1,0 +1,86 @@
+
+
+
+
+.first-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 15rem;
+    height: 15rem;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .grid-item {
+    background-color:pink);
+    outline: 1px solid rgba(0, 0, 0, 0.8);
+  }
+
+
+  .second-container {
+    display: grid;
+    width: 15rem;
+    height: 15rem;
+    grid-template-columns: 20% auto;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .grid-item {
+    background-color:pink);
+    outline:1 px solid rgba(0, 0, 0, 0.8);
+  }
+
+  .third-container {
+    display: grid;
+    width: 15rem;
+    height: 15rem;
+    grid-template-columns: 20% auto auto;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .grid-item {
+    background-color:pink;
+    outline: 10px solid red;
+  }
+
+
+  .first-row {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 15rem;
+    height: 15rem;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+ 
+
+  .second-row {
+    display: grid;
+    width: 15rem;
+    height: 15rem;
+    grid-template-rows: 20% auto;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .third-row {
+    display: grid;
+    width: 15rem;
+    height: 15rem;
+    grid-template-rows: 20% auto auto;
+    background-color:red;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+
